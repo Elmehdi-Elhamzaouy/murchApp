@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDED"
+    tools:context=".mainActivities.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Your existing layout content here -->
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="500dp"
+                android:layout_height="520dp"
+                android:layout_marginTop="-40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.775"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/techwear1"
+
+                />
+
+            <TextView
+                android:id="@+id/off"
+                android:layout_width="262dp"
+                android:layout_height="106dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="103dp"
+                android:layout_marginTop="290dp"
+                android:gravity="top"
+                android:text="@string/off"
+                android:textAppearance="@style/off" />
+
+            <TextView
+                android:id="@+id/winter_coll"
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="141dp"
+                android:layout_marginTop="351dp"
+                android:gravity="top"
+                android:fontFamily="sans-serif"
+                android:text="@string/winter_coll"
+                android:textAppearance="@style/winter_coll"
+                android:lineHeight="50sp" />
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="500dp"
+                android:layout_height="220dp"
+                android:layout_marginTop="530dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.775"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/rectangle3388" />
+
+            <TextView
+                android:id="@+id/new_product"
+                android:layout_width="110dp"
+                android:layout_height="19dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="57dp"
+                android:layout_marginTop="557dp"
+                android:gravity="top"
+                android:text="@string/new_product"
+                android:textAppearance="@style/new_product" />
+
+            <TextView
+                android:id="@+id/unleash_inn"
+                android:layout_width="177dp"
+                android:layout_height="66dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="581dp"
+                android:gravity="center_horizontal|top"
+                android:text="@string/unleash_inn"
+                android:textAppearance="@style/unleash_inn" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/unleash_inn"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="224dp"
+                android:layout_marginBottom="-56dp"
+                android:background="@drawable/rounded_button_background"
+                android:backgroundTint="#000000"
+                android:text="Explore Now"
+                android:textColor="#FFFFFF" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="178dp"
+                android:layout_height="400dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="440dp"
+                app:srcCompat="@drawable/hunihoodieremovebgpreview1" />
+
+            <TextView
+                android:id="@+id/top_trends_shoes"
+                android:layout_width="169dp"
+                android:layout_height="24dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="119dp"
+                android:layout_marginTop="783dp"
+                android:gravity="top"
+                android:text="@string/top_trends_shoes"
+                android:textAppearance="@style/top_trends_shoes" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="840dp"
+
+                app:srcCompat="@drawable/iwillcreatehighquality3dshoedesignwith4kresolutionrenderingremovebgpreview1" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/sho2"
+                android:layout_marginTop="840dp"
+                android:layout_marginLeft="120dp"/>
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/sho3"
+                android:layout_marginTop="840dp"
+                android:layout_marginLeft="200dp"/>
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="815dp"
+                app:srcCompat="@drawable/sho4" />
+
+            <TextView
+                android:id="@+id/top_trends_hoodies"
+                android:layout_width="189dp"
+                android:layout_height="24dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="995dp"
+                android:gravity="top"
+                android:text="@string/top_trends_hoodies"
+                android:textAppearance="@style/top_trends_hoodies"
+                tools:ignore="DuplicateIds" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1050dp"
+                android:layout_marginBottom="100dp"
+
+                app:srcCompat="@drawable/hood1" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="1030dp"
+                app:srcCompat="@drawable/hood2" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="155dp"
+                android:layout_marginTop="1030dp"
+                app:srcCompat="@drawable/hood3" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="1030dp"
+                app:srcCompat="@drawable/hood4" />
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/fav"
+                tools:layout_editor_absoluteX="108dp"
+                tools:layout_editor_absoluteY="156dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="360dp"
+                android:layout_marginTop="20dp"
+
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:drawableLeft="@drawable/search"
+                tools:layout_editor_absoluteX="108dp"
+                tools:layout_editor_absoluteY="156dp" />
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="370dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+
+
+        android:background="@drawable/footer"
+
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true">
+
+
+
+        <Button
+            android:id="@+id/homebtn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="40dp"
+
+
+            app:srcCompat="@drawable/home"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/home"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="156dp" />
+        <Button
+            android:id="@+id/catbtn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="140dp"
+            app:srcCompat="@drawable/category"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/category"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="156dp"/>
+
+        <Button
+            android:id="@+id/paybtn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="223dp"
+            app:srcCompat="@drawable/payment"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/payment"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="156dp"/>
+
+        <Button
+            android:id="@+id/prflbtn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="310dp"
+            app:srcCompat="@drawable/profile"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/profile"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="156dp"/>
+    </RelativeLayout>
+</RelativeLayout>

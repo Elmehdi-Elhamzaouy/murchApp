@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDED"
+    tools:context=".mainActivities.MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/backbtn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="21dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:drawableLeft="@drawable/back"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="156dp" />
+        <Button
+            android:id="@+id/searchbtn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="18dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:drawableLeft="@drawable/searching"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="156dp" />
+        <Button
+            android:id="@+id/bagbtn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="17dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:drawableLeft="@drawable/bag"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="156dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/backbtn"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-42dp"
+            android:layout_marginEnd="100dp"
+            app:srcCompat="@drawable/rectangle3352" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="107dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="Search"
+            android:padding="16dp"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/dltbtn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="18dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:drawableLeft="@drawable/deleting"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="156dp" />
+
+
+        <TextView
+            android:id="@+id/gender"
+            android:layout_width="69dp"
+            android:layout_height="34dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="88dp"
+            android:gravity="top"
+            android:text="@string/gender"
+            android:textAppearance="@style/gender" />
+
+        <ToggleButton
+            android:id="@+id/men"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="133dp"
+            android:layout_marginLeft="29dp"
+            android:gravity="center"
+            android:background="@drawable/button_selector"
+            android:textColor="#000000"
+            android:textOff="MEN"
+            android:textOn="MEN" />
+
+
+        <ToggleButton
+            android:id="@+id/women"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="133dp"
+            android:layout_marginLeft="140dp"
+            android:background="@drawable/button_selector"
+            android:textColor="#000000"
+            android:textOff="WOMAN"
+            android:textOn="WOMAN" />
+
+        <ToggleButton
+            android:id="@+id/unisex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="255dp"
+            android:layout_marginTop="133dp"
+            android:background="@drawable/button_selector"
+            android:textColor="#000000"
+            android:textOff="UNISEX"
+            android:textOn="UNISEX" />
+
+        <TextView
+            android:id="@+id/size"
+            android:layout_width="49dp"
+            android:layout_height="37dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="205dp"
+            android:gravity="top"
+            android:text="@string/size"
+            android:textAppearance="@style/size" />
+        <ToggleButton
+            android:id="@+id/myToggleButtonXS"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="243dp"
+            android:layout_marginLeft="29dp"
+            android:gravity="center"
+            android:background="@drawable/button_selector"
+            android:textColor="#000000"
+            android:textOff="XS"
+            android:textOn="XS" />
+        <ToggleButton
+            android:id="@+id/myToggleButtonS"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="243dp"
+            android:layout_marginLeft="109dp"
+            android:gravity="center"
+            android:background="@drawable/button_selector"
+            android:textColor="#000000"
+            android:textOff="S"
+            android:textOn="S" />
+        <ToggleButton
+            android:id="@+id/myToggleButtonM"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="243dp"
+            android:layout_marginLeft="189dp"
+            android:gravity="center"
+            android:background="@drawable/button_selector"
+            android:textColor="#000000"
+            android:textOff="M"
+            android:textOn="M" />
+        <ToggleButton
+            android:id="@+id/myToggleButtonL"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="243dp"
+            android:layout_marginLeft="270dp"
+            android:gravity="center"
+            android:background="@drawable/button_selector"
+            android:textColor="#000000"
+            android:textOff="L"
+            android:textOn="L" />
+        <ToggleButton
+            android:id="@+id/myToggleButtonXL"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="29dp"
+            android:gravity="center"
+            android:background="@drawable/button_selector"
+            android:textColor="#000000"
+            android:textOff="XL"
+            android:textOn="XL" />
+        <ToggleButton
+            android:id="@+id/myToggleButtonXXL"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="109dp"
+            android:gravity="center"
+            android:background="@drawable/button_selector"
+            android:textColor="#000000"
+            android:textOff="XXL"
+            android:textOn="XXL" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="361dp"
+            android:gravity="top"
+            android:text="@string/price"
+            android:textAppearance="@style/price" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="344dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="416dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginBottom="280dp"
+            android:progressDrawable="@drawable/seekbar_progress"
+            android:thumb="@drawable/custom_thumb" />
+
+        <TextView
+            android:id="@+id/colors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="473dp"
+            android:gravity="top"
+            android:text="@string/colors"
+            android:textAppearance="@style/colors" />
+        <ToggleButton
+            android:id="@+id/myToggleButtonRED"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="510dp"
+            android:layout_marginLeft="29dp"
+            android:gravity="center"
+            android:background="@drawable/button_selector"
+            android:textColor="#000000"
+            android:textOff="RED"
+            android:textOn="RED" />
+        <ToggleButton
+            android:id="@+id/myToggleButtonBLUE"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="510dp"
+            android:layout_marginLeft="97dp"
+            android:gravity="center"
+            android:background="@drawable/button_selector"
+            android:textColor="#000000"
+            android:textOff="BLUE"
+            android:textOn="BLUE" />
+        <ToggleButton
+            android:id="@+id/myToggleButtonGREEN"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="510dp"
+            android:layout_marginLeft="165dp"
+            android:gravity="center"
+            android:background="@drawable/button_selector"
+            android:textColor="#000000"
+            android:textOff="GREEN"
+            android:textOn="GREEN" />
+        <ToggleButton
+            android:id="@+id/myToggleButtonYELLOW"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="510dp"
+            android:layout_marginLeft="233dp"
+            android:gravity="center"
+            android:background="@drawable/button_selector"
+            android:textColor="#000000"
+            android:textOff="YELLOW"
+            android:textOn="YELLOW" />
+        <ToggleButton
+            android:id="@+id/myToggleButtonBLACK"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="510dp"
+            android:layout_marginLeft="300dp"
+            android:gravity="center"
+            android:background="@drawable/button_selector"
+            android:textColor="#000000"
+            android:textOff="BLACK"
+            android:textOn="BLACK" />
+
+        <GridView
+            android:id="@+id/pro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="2"
+            android:horizontalSpacing="8dp"
+            android:verticalSpacing="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="580dp"
+            android:stretchMode="columnWidth"/>
+
+    </RelativeLayout>
+
+</ScrollView>
+
+
+

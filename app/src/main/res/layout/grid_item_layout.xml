@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- grid_item_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+        <Button
+            android:id="@+id/panier"
+            android:layout_width="23.09dp"
+            android:layout_height="23.09dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:drawableTop="@drawable/shopping_cart"
+            android:paddingTop="5dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="-30dp"
+            android:alpha="0.9"
+            android:background="@drawable/panier" />
+
+        <ImageView
+            android:id="@+id/productImage"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/rectangle_2"
+            android:clipToOutline="true"/>
+
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/rectangle_4"
+            android:orientation="vertical"
+            android:layout_marginTop="-70dp"
+            android:gravity="center|left"
+            android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:id="@+id/productName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:textAppearance="@style/drop_should"
+                    android:textStyle="bold"
+                    android:gravity="top"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:id="@+id/productPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:textAppearance="@style/dh"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="4dp"/>
+
+                <View
+                    android:id="@+id/color1"
+                    android:layout_width="17.87dp"
+                    android:layout_height="22.34dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="-20dp"
+                    android:elevation="5dp"/>
+                <View
+                    android:id="@+id/color2"
+                    android:layout_width="17.87dp"
+                    android:layout_height="22.34dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="-23dp"
+                    android:elevation="4dp"/>
+                <View
+                    android:id="@+id/color3"
+                    android:layout_width="17.87dp"
+                    android:layout_height="22.34dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="-23dp"
+                    android:elevation="3dp"/>
+
+        </LinearLayout>
+
+
+
+</LinearLayout>
